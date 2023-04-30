@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "MacaroniApp"
-include ':app'
+include(":app")
