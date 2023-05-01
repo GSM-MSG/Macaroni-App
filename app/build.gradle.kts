@@ -50,7 +50,8 @@ android {
 }
 
 dependencies {
-    implementation(ProjectProperties.Modules.PRESENTAION)
+    implementation(project(ProjectProperties.Modules.PRESENTAION))
+    implementation(project(ProjectProperties.Modules.DOMAIN))
 
     implementation(Dependencies.AndroidX.CORE)
     implementation(Dependencies.AndroidX.APPCOMPAT)
