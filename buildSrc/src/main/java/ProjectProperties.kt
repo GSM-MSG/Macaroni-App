@@ -3,10 +3,11 @@ import org.gradle.api.JavaVersion
 object ProjectProperties {
 
     val NAMESPACE = "com.msg.macaroniapp"
+    val PRESENTATION = "com.msg.presentation"
 
     val COMPILE_SDK = 33
     val MIN_SDK = 31
-    val TARGET_SEK = 33
+    val TARGET_SDK = 33
 
     val JAVA_VERSION = JavaVersion.VERSION_1_8
 

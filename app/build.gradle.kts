@@ -10,7 +10,7 @@ android {
     defaultConfig {
         applicationId = ProjectProperties.NAMESPACE
         minSdk = ProjectProperties.MIN_SDK
-        targetSdk = ProjectProperties.TARGET_SEK
+        targetSdk = ProjectProperties.TARGET_SDK
         versionCode = ProjectProperties.Version.VERSION_CODE
         versionName = ProjectProperties.Version.VERSION_NAME
 
