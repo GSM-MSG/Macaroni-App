@@ -33,6 +33,7 @@ object ProjectProperties {
     }
 
     object Modules {
-        const val PRESENTAION = ":presentaion"
+        const val PRESENTAION = ":presentation"
+        const val DOMAIN = ":domain"
     }
 }

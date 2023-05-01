@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 rootProject.name = "MacaroniApp"
 include(":app")
 include(":presentation")
+include(":domain")
