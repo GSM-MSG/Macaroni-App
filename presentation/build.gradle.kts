@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = ProjectProperties.PRESENTATION
-    compileSdk = 33
+    compileSdk = ProjectProperties.COMPILE_SDK
 
     defaultConfig {
         minSdk = ProjectProperties.MIN_SDK

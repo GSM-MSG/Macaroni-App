@@ -4,6 +4,7 @@ object ProjectProperties {
 
     const val NAMESPACE = "com.msg.macaroniapp"
     const val PRESENTATION = "com.msg.presentation"
+    const val DOMAIN = "com.msg.domain"
 
     const val COMPILE_SDK = 33
     const val MIN_SDK = 31
