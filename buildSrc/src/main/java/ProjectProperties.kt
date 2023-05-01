@@ -37,5 +37,6 @@ object ProjectProperties {
     object Modules {
         const val PRESENTAION = ":presentation"
         const val DOMAIN = ":domain"
+        const val DATA = ":data"
     }
 }
