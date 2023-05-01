@@ -50,6 +50,7 @@ android {
 }
 
 dependencies {
+    implementation(ProjectProperties.Modules.PRESENTAION)
 
     implementation(Dependencies.AndroidX.CORE)
     implementation(Dependencies.AndroidX.APPCOMPAT)

@@ -8,24 +8,24 @@ object Dependencies {
     }
 
     object Google {
-        val MATERIAL = "com.google.android.material:material:${Versions.GOOGLE_METERIAL}"
+        const val MATERIAL = "com.google.android.material:material:${Versions.GOOGLE_METERIAL}"
     }
 
     object Compose {
-        val UI = "androidx.compose.ui:ui:${Versions.COMPOSE_UI}"
-        val PREVIEW = "androidx.compose.ui:ui-tooling-preview:${Versions.COMPOSE_UI}"
-        val MATERIAL = "androidx.compose.material:material:${Versions.COMPOSE_UI}"
-        val JUNIT = "androidx.compose.ui:ui-test-junit4:${Versions.COMPOSE_UI}"
-        val TOOLING = "androidx.compose.ui:ui-tooling:${Versions.COMPOSE_UI}"
-        val MANIFEST = "androidx.compose.ui:ui-test-manifest:${Versions.COMPOSE_UI}"
+        const val UI = "androidx.compose.ui:ui:${Versions.COMPOSE_UI}"
+        const val PREVIEW = "androidx.compose.ui:ui-tooling-preview:${Versions.COMPOSE_UI}"
+        const val MATERIAL = "androidx.compose.material:material:${Versions.COMPOSE_UI}"
+        const val JUNIT = "androidx.compose.ui:ui-test-junit4:${Versions.COMPOSE_UI}"
+        const val TOOLING = "androidx.compose.ui:ui-tooling:${Versions.COMPOSE_UI}"
+        const val MANIFEST = "androidx.compose.ui:ui-test-manifest:${Versions.COMPOSE_UI}"
     }
 
     object Junit {
-        val JUNIT = "junit:junit:${Versions.JUNIT}"
-        val EXT = "androidx.test.ext:junit:${Versions.JUNIT_EXT}"
+        const val JUNIT = "junit:junit:${Versions.JUNIT}"
+        const val EXT = "androidx.test.ext:junit:${Versions.JUNIT_EXT}"
     }
 
     object Espresso {
-        val ESPRESSO = "androidx.test.espresso:espresso-core:${Versions.ESPRESSO}"
+        const val ESPRESSO = "androidx.test.espresso:espresso-core:${Versions.ESPRESSO}"
     }
 }
