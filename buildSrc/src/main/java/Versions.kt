@@ -17,4 +17,7 @@ object Versions {
     const val ROOM = "2.5.0"
 
     const val JDBC = "3.41.2.1"
+
+    const val RETROFIT = "2.7.1"
+    const val OKHTTP = "3.14.9"
 }

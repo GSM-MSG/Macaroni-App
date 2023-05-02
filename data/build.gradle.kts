@@ -45,4 +45,7 @@ dependencies {
     implementation(Dependencies.Room.RUNTIME)
     annotationProcessor(Dependencies.Room.COMPILER)
     kapt(Dependencies.Xerial.JDBC)
+    implementation(Dependencies.Okhttp.RETROFIT)
+    implementation(Dependencies.Okhttp.RETROFIT_CONVERTER_GSON)
+    implementation(Dependencies.Okhttp.OKHTTP)
 }
