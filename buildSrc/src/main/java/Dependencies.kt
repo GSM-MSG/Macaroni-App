@@ -1,10 +1,15 @@
 object Dependencies {
 
     object AndroidX {
-        val CORE = "androidx.core:core-ktx:${Versions.ANDROIDX_CORE}"
-        val APPCOMPAT = "androidx.appcompat:appcompat:${Versions.ANDRODIX_APPCOMPAT}"
-        val LIFECYCLE = "androidx.lifecycle:lifecycle-runtime-ktx:${Versions.ANDROIDX_LIFECYCLE}"
-        val ACTIVITY_COMPOSE = "androidx.activity:activity-compose:${Versions.ANDROIDX_ACTIVITY_COMPOSE}"
+        const val CORE = "androidx.core:core-ktx:${Versions.ANDROIDX_CORE}"
+        const val APPCOMPAT = "androidx.appcompat:appcompat:${Versions.ANDRODIX_APPCOMPAT}"
+        const val LIFECYCLE = "androidx.lifecycle:lifecycle-runtime-ktx:${Versions.ANDROIDX_LIFECYCLE}"
+        const val ACTIVITY_COMPOSE = "androidx.activity:activity-compose:${Versions.ANDROIDX_ACTIVITY_COMPOSE}"
+    }
+
+    object Room {
+        const val RUNTIME = "androidx.room:room-runtime:${Versions.ROOM}"
+        const val COMPILER = "androidx.room:room-compiler:${Versions.ROOM}"
     }
 
     object Google {

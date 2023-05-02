@@ -35,6 +35,12 @@ android {
 
 dependencies {
 
+    implementation(Dependencies.Google.MATERIAL)
+    implementation(Dependencies.AndroidX.LIFECYCLE)
+    implementation(Dependencies.AndroidX.ACTIVITY_COMPOSE)
+    implementation(Dependencies.Compose.UI)
+    implementation(Dependencies.Compose.PREVIEW)
+    implementation(Dependencies.Compose.MATERIAL)
     implementation(Dependencies.AndroidX.CORE)
     implementation(Dependencies.AndroidX.APPCOMPAT)
     implementation(Dependencies.Google.MATERIAL)

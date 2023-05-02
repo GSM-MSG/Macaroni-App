@@ -41,4 +41,6 @@ dependencies {
     testImplementation(Dependencies.Junit.JUNIT)
     androidTestImplementation(Dependencies.Junit.EXT)
     androidTestImplementation(Dependencies.Espresso.ESPRESSO)
+    implementation(Dependencies.Room.RUNTIME)
+    annotationProcessor(Dependencies.Room.COMPILER)
 }

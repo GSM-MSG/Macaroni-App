@@ -13,4 +13,6 @@ object Versions {
     const val JUNIT_EXT = "1.1.5"
 
     const val ESPRESSO = "3.5.1"
+
+    const val ROOM = "2.5.0"
 }
