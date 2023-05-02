@@ -33,4 +33,8 @@ object Dependencies {
     object Espresso {
         const val ESPRESSO = "androidx.test.espresso:espresso-core:${Versions.ESPRESSO}"
     }
+
+    object Xerial {
+        const val JDBC = "org.xerial:sqlite-jdbc:${Versions.JDBC}"
+    }
 }

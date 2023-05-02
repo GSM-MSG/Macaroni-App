@@ -4,6 +4,7 @@ object BuildPlugins {
         const val APPLICATION = "com.android.application"
         const val LIBRARY = "com.android.library"
         const val ANDROID = "org.jetbrains.kotlin.android"
+        const val KAPT = "kotlin-kapt"
     }
 
     object Versions {
